@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    margin: 50px 300px;
+    background: #FFFFFF;
+    padding: 60px 30px 30px;
+    border-radius: 10px;
+}
+
+.container img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.container figure {
+    margin-bottom: 50px;
+}
+
+.container figcaption {
+    text-align: right;
+    color: #8F8F8F;
+}
+
+ul ,ol {
+    line-height: 30px;
+    list-style-position: inside;
+}
+
+footer {
+    padding: 0 0 20px;
+    text-align: center;
+}
